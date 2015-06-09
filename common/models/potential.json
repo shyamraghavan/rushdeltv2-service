@@ -1,0 +1,54 @@
+{
+  "name": "potential",
+  "plural": "potentials",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "class": {
+      "type": "number",
+      "required": true
+    },
+    "hometown": {
+      "type": "string"
+    },
+    "bid_decision": {
+      "type": "boolean"
+    },
+    "bid_given": {
+      "type": "boolean"
+    },
+    "invite_only": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
