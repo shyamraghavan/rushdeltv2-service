@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 2
+  },
+  "models": {
+    "ManagerHost": {
+      "1247613d-9679-4e22-b78a-d21dbf3d6782": "{\"id\":\"1247613d-9679-4e22-b78a-d21dbf3d6782\",\"host\":\"52.11.209.155\",\"port\":8702,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"stop\",\"restart\",\"cluster-restart\",\"license-push\"],\"protocol\":\"http\",\"created\":1433820480271,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"rushdeltv2-service\",\"version\":null,\"port\":3001},\"processes\":{\"pids\":[{\"parentPid\":31417,\"pid\":31456,\"workerId\":0,\"listeningSockets\":[],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-06-09T03:23:11.135Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":4,\"serviceInstanceId\":1},{\"parentPid\":31456,\"pid\":31512,\"workerId\":5,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3001,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-06-09T03:27:14.218Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":8,\"serviceInstanceId\":1},{\"parentPid\":31456,\"pid\":31514,\"workerId\":6,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3001,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-06-09T03:27:16.286Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":9,\"serviceInstanceId\":1},{\"parentPid\":31456,\"pid\":31516,\"workerId\":7,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3001,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-06-09T03:27:18.356Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":10,\"serviceInstanceId\":1},{\"parentPid\":31456,\"pid\":31518,\"workerId\":8,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3001,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"isTracing\":false,\"watchdogTimeout\":0,\"watchdogStallout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-06-09T03:27:20.420Z\",\"stopTime\":null,\"stopReason\":\"\",\"id\":11,\"serviceInstanceId\":1}]}}"
+    },
+    "LoadBalancer": {}
+  }
+}
